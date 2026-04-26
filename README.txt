@@ -8,7 +8,8 @@ A minimal CLI-based password manager written in Bash, powered by OpenSSL encrypt
 
 - Securely store and retrieve passwords from the command line
 - AES-256 encryption via OpenSSL
-- Passwords are stored locally - no third-party password vaults or cloud storage required
+- Passwords are stored locally - no third-party password vaults or cloud
+  storage required
 - Minimal dependencies: just Bash and OpenSSL
 - Simple, interactive menu interface
 
@@ -23,7 +24,8 @@ A minimal CLI-based password manager written in Bash, powered by OpenSSL encrypt
 
 ## Usage
 
-Change directory to the root of the project and allot execute permissions to `password_manager.sh`:
+Change directory to the root of the project and allot execute permissions to
+`password_manager.sh`:
 
     chmod +x password_manager.sh
 
