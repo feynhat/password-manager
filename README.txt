@@ -36,10 +36,10 @@ is used to encrypt and decrypt all stored entries.
 
 ### Menu Options
 
-1. Add a new account password
-2. Retrieve a stored password
-3. List all saved accounts
-4. Exit
+ 1. Add a new account password
+ 2. Retrieve a stored password
+ 3. List all saved accounts
+ 4. Exit
 
 ---
 
