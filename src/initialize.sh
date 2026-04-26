@@ -35,8 +35,8 @@ create_master_password() {
 		echo -n "Confirm the password: "
 		read -s pw2
 	done
+	openssl passwd -6 -salt $(openssl rand -base64 16) $pw1 > data/.MASTER
 	MASTER_PASSWORD=$pw1
-	openssl passwd -6 -salt $(openssl rand -base64 16) $MASTER_PASSWORD > data/.MASTER
 	echo "Master password created."
 }
 
